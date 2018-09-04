@@ -33,15 +33,3 @@ class Distance
         return round($dist);
     }
 }
-
-
-
-
-$lat1 = 55.7414955;
-$long1 = 37.6050417;
-$lat2 = 55.7387655;
-$long2 = 37.6121013;
-
-$result = calculateTheDistance($lat1, $long1, $lat2, $long2);
-
-echo "Расстояние между координатами $lat1,$long1 и $lat2,$long2 равно $result метра(ов)\n";
